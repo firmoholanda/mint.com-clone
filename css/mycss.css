@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-body {
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #eceef1;
-=======
 
 /* Mint Fav Entrance Animation */
     @keyframes scale-in-center-right{0%{transform:scale(0);opacity:1}30%{transform:scale(3);opacity:1}45%{transform:scale(1);opacity:1}100%{-webkit-transform:translateX(-165px);transform:translateX(-165px);opacity:1}}
@@ -31,7 +26,6 @@ html {
 body {
     background-color: #eceef1;
     text-align: center;
->>>>>>> header-branch
 }
 
 a {
@@ -39,15 +33,6 @@ a {
     color: #0077C5;  
 }
 
-<<<<<<< HEAD
-p {
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-
-button {
-    border: 1px solid #505050;
-=======
 /* HEADER AND LOGOS */
 .logo-container {
     display: flex;
@@ -126,7 +111,6 @@ button {
 
 button {
     border: 1px solid #0077C5;
->>>>>>> header-branch
     border-radius: 4px;
     color: white;
     text-transform: capitalize;
@@ -135,16 +119,11 @@ button {
 }
 
 button img{
-<<<<<<< HEAD
     vertical-align: text-top;
-=======
-    vertical-align: text-top; 
->>>>>>> header-branch
 }
 
 #signin {
     display: flex;
-<<<<<<< HEAD
     flex-direction: row;
     justify-content: flex-end; 
 
@@ -186,14 +165,3 @@ button img{
         #signin-button button img {
             width: 12px;
         }
-=======
-    justify-content: flex-end;
-    padding-right: 20px;
-    background-color: burlywood;
-}
-
-#signin-text {
-    font-weight: 400;
-    color: #505050;
-}
->>>>>>> header-branch
