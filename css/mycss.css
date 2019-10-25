@@ -9,7 +9,7 @@ a {
 }
 
 button {
-    border: 1px solid #0077C5;
+    border: 1px solid #505050;
     border-radius: 4px;
     color: white;
     text-transform: capitalize;
@@ -23,12 +23,35 @@ button img{
 
 #signin {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end;    
     padding-right: 20px;
+    height: 60px;
     background-color: burlywood;
 }
 
-#signin-text {
-    font-weight: 400;
-    color: #505050;
+    #signin-text {
+        display: inline-block;
+
+        font-weight: 400;
+        font-size: 12px;
+        color: #505050;
+        text-align: right;
+        margin: 5px 0;
+
+        background-color: purple;
+    }
+
+#signin-button {
+    padding: 7px;
 }
+
+    #signin-button button {
+        width: 100px;
+        height: 34px;
+        font-size: 0.93em;
+    }
+
+        #signin-button button img {
+            width: 12px;
+            padding-right: 5px;
+        }
