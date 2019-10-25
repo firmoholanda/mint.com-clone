@@ -1,0 +1,71 @@
+body {
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #eceef1;
+}
+
+a {
+    text-decoration: none;
+    color: #0077C5;  
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+button {
+    border: 1px solid #505050;
+    border-radius: 4px;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+    background: #167CCC;
+}
+
+button img{
+    vertical-align: text-top;
+}
+
+#signin {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+
+    padding-right: 20px;
+    height: 60px;
+    
+}
+
+    #signin-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        font-weight: 400;
+        font-size: 12px;
+        color: #505050;
+        text-align: right;
+        margin: 5px 0;
+        padding-top: 5px;
+        padding-right: 7px;
+    }
+
+    #signin-text > p {
+        padding-bottom: 4px;
+    }
+
+#signin-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    #signin-button button {
+        width: 100px;
+        height: 34px;
+        font-size: 0.93em;
+    }
+
+        #signin-button button img {
+            width: 12px;
+        }
