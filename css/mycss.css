@@ -146,3 +146,7 @@ fieldset > label {
     height: 1.1em;
     padding-right: 7px;
 }
+
+#terms-text {
+    margin-bottom: 30px;
+}
