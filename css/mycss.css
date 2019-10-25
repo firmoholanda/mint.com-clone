@@ -2,7 +2,7 @@ html {
     font-size: 16px;
     width: 100vw;
     height: auto;
-    font-family: "AvenirNext", 'Avenir', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'AvenirNext', 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 400;
 }
 
@@ -25,6 +25,7 @@ a {
     align-content: center;
     width: 100vw;
     height: auto;
+    padding-bottom: 10px;
 }
     .intuit-logo-container {
         display: flex;
@@ -46,10 +47,11 @@ a {
         height: auto;
     }
     .favicon-container a {
-        color: #4C4C4C;
-        font-size: 1.1em;
+        color: #757575;
+        font-size: 1.2em;
         font-weight: 300;
         text-decoration: none;
+        padding-right: 8px;
     }
         .mint-container {
             
@@ -63,6 +65,8 @@ a {
             .mint-fav, .quickbooks-fav, .turbotax-fav {
                 height: 22px;
                 width: 22px;
+                vertical-align: middle;
+                border: none;
             }
 
 button {
