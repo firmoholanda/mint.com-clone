@@ -24,6 +24,11 @@ button img{
 #signin {
     display: flex;
     justify-content: flex-end;
-
+    padding-right: 20px;
     background-color: burlywood;
+}
+
+#signin-text {
+    font-weight: 400;
+    color: #505050;
 }
