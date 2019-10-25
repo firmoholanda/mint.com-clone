@@ -1,3 +1,20 @@
+
+/* Mint Fav Entrance Animation */
+    @keyframes scale-in-center-right{0%{transform:scale(0);opacity:1}30%{transform:scale(3);opacity:1}45%{transform:scale(1);opacity:1}100%{-webkit-transform:translateX(-165px);transform:translateX(-165px);opacity:1}}
+
+/* Mint Text Slide In Animation */
+    @-webkit-keyframes slide-mint-right{0%{-webkit-transform:translateX(10px);transform:translateX(10px);opacity:1}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+    @keyframes slide-mint-right{0%{-webkit-transform:translateX(10px);transform:translateX(10px);opacity:1}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+
+/* Quickbooks & TurboTax Fav Slide In Entrance Animations */
+    @-webkit-keyframes slide-in-right{0%{-webkit-transform:translateX(60px);transform:translateX(60px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+    @keyframes slide-in-right{0%{-webkit-transform:translateX(60px);transform:translateX(60px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+
+/* Quickbooks & TurboTax Fav Fade in Animation */
+    @-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+
+
+
 html {
     font-size: 16px;
     width: 100vw;
@@ -46,28 +63,51 @@ a {
         width: 100vw;
         height: auto;
     }
-    .favicon-container a {
+    .favicon-container a, .mint-text {
         color: #757575;
         font-size: 1.2em;
         font-weight: 300;
         text-decoration: none;
         padding-right: 8px;
     }
-        .mint-container {
-            
+        /* Top Favicon Styling */
+        .mint-fav, .quickbooks-fav, .turbotax-fav {
+            height: 22px;
+            width: 22px;
+            vertical-align: middle;
+            border: none;
         }
+        
+        /* Mint Fav Entrance Animation */
+        .mint-fav {
+            position: absolute;
+            left: 50%;
+            transform:translateX(-50%);
+            -webkit-animation: scale-in-center-right 2.2s cubic-bezier(0.860, 0.000, 0.070, 1.000) both;
+            animation: scale-in-center-right 2.2s cubic-bezier(0.860, 0.000, 0.070, 1.000) both;
+        }
+        .mint-text {
+            -webkit-animation: slide-mint-right 2.1s cubic-bezier(0.250, 0.460, 0.450, 1.000) both;
+	        animation: slide-mint-right 1.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            -webkit-animation: fade-in 1.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in 1.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation-delay: 1.7s;  
+        }
+        /* Quickbooks & TurboTax Entrance Animation */
         .quickbooks-container {
-
+            -webkit-animation: fade-in 2.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in 2.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            -webkit-animation: slide-in-right 1.1s cubic-bezier(0.860, 0.000, 0.070, 1.000) alternate both;
+            animation: slide-in-right 1.1s cubic-bezier(0.860, 0.000, 0.070, 1.000) alternate both;
+            animation-delay: 1.5s;
         }
         .turbotax-container {
-
+            -webkit-animation: fade-in 2.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in 2.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            -webkit-animation: slide-in-right 1.2s cubic-bezier(0.860, 0.000, 0.070, 1.000) alternate both;
+            animation: slide-in-right 1.2s cubic-bezier(0.860, 0.000, 0.070, 1.000) alternate both;
+            animation-delay: 1.7s;
         }
-            .mint-fav, .quickbooks-fav, .turbotax-fav {
-                height: 22px;
-                width: 22px;
-                vertical-align: middle;
-                border: none;
-            }
 
 button {
     border: 1px solid #0077C5;
