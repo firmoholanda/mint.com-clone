@@ -1,0 +1,34 @@
+body {
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #eceef1;
+}
+
+a {
+    text-decoration: none;
+    color: #0077C5;  
+}
+
+button {
+    border: 1px solid #0077C5;
+    border-radius: 4px;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+    background: #167CCC;
+}
+
+button img{
+    vertical-align: text-top;
+}
+
+#signin {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    background-color: burlywood;
+}
+
+#signin-text {
+    font-weight: 400;
+    color: #505050;
+}
