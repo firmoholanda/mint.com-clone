@@ -1,0 +1,13 @@
+linters:
+
+  #html
+  HTMLHint:
+  
+  #javascript
+  eslint:
+  jshint:
+
+  #css
+  csslint:
+  
+  
