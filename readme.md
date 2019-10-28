@@ -16,7 +16,7 @@ Basic HTML5, CSS and github was used on this collaborative project.
 
 ## Our project
 
-Our project can be found [here] (https://github.com/firmoholanda/mint.com-clone/tree/development)
+Our project can be found in https://github.com/firmoholanda/mint.com-clone/tree/development
 
 ### ✨ [Live Demo](https://raw.githack.com/firmoholanda/mint.com-clone/development/index.html)
 <a href="https://raw.githack.com/firmoholanda/mint.com-clone/tree/development" target="_blank">
