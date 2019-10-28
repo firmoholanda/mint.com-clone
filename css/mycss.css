@@ -127,12 +127,7 @@ fieldset > label {
  fieldset > input {
     height: 34px;
     width: 320px;
-}
-
-#terms-captcha {
-    font-size: 10px;
-    padding:  16px;
-    background-color: #ECEEF1
+    padding: 0;
 }
 
 #button-create-account {
@@ -148,5 +143,23 @@ fieldset > label {
 }
 
 #terms-text {
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    color: #757575;
+}
+
+#terms-captcha {
+    font-size: 10px;
+    padding:  16px;
+    margin: 32px -30px -30px;
+    text-align: center;
+    background-color: #ECEEF1
+}
+
+#terms-captcha >p {
+    font-size: 10px;
 }
