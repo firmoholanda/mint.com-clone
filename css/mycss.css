@@ -182,7 +182,10 @@ button img{
     line-height: 1.5;
     text-align: center;
     color: #4C4C4C;
-    background-color:white;
+		background-color:white;
+		-webkit-animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+		animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+		animation-delay: 1.4s;
 }
 
 #form-container > h2 {
