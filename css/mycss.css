@@ -85,6 +85,10 @@ h4, p {
 			font-weight: 300;
 			text-decoration: none;
 			padding-right: 8px;
+			-webkit-animation: slide-mint-right 2.1s cubic-bezier(0.250, 0.460, 0.450, 1.000) both;
+			animation: slide-mint-right 1.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+			animation: fade-in 1.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+			animation-delay: 1.7s;  
 		}
         /* Top Favicon Styling */
         .mint-fav, .quickbooks-fav, .turbotax-fav {
@@ -106,25 +110,16 @@ h4, p {
         	    -webkit-animation: scale-in-center-right 2.2s cubic-bezier(0.860, 0.000, 0.070, 1.000) both;
         	    animation: scale-in-center-right 2.2s cubic-bezier(0.860, 0.000, 0.070, 1.000) both;
         	}
-        .mint-text {
-            -webkit-animation: slide-mint-right 2.1s cubic-bezier(0.250, 0.460, 0.450, 1.000) both;
-	        animation: slide-mint-right 1.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            -webkit-animation: fade-in 1.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-            animation: fade-in 1.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-            animation-delay: 1.7s;  
-        }
         /* Quickbooks & TurboTax Entrance Animation */
         .quickbooks-container {
             -webkit-animation: fade-in 2.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
             animation: fade-in 2.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-            -webkit-animation: slide-in-right 1.1s cubic-bezier(0.860, 0.000, 0.070, 1.000) alternate both;
             animation: slide-in-right 1.1s cubic-bezier(0.860, 0.000, 0.070, 1.000) alternate both;
             animation-delay: 1.5s;
         }
         .turbotax-container {
             -webkit-animation: fade-in 2.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
             animation: fade-in 2.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-            -webkit-animation: slide-in-right 1.2s cubic-bezier(0.860, 0.000, 0.070, 1.000) alternate both;
             animation: slide-in-right 1.2s cubic-bezier(0.860, 0.000, 0.070, 1.000) alternate both;
             animation-delay: 1.7s;
         }
@@ -143,7 +138,7 @@ button img{
 }
 
 form {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 fieldset {
@@ -208,8 +203,19 @@ fieldset > label {
         width: 100px;
         height: 34px;
         font-size: 0.93em;
-    }
+		}
+		
+				#button-create-account {
+					margin-top: 5px;
+					margin-bottom: 0px;
+					height: 44px;
+					width: 318px;
+				}
 
+				#button-create-account img {
+					height: 1.1em;
+					padding-right: 7px;
+				}
         #signin-button button img {
             width: 12px;
             height: auto;
@@ -251,51 +257,6 @@ fieldset > label {
     line-height: 2;
     font-weight: lighter;
     font-size: 12px;
-}
-
-form {
-    padding-top: 10px;
-}
-
-fieldset {
-    border-style: none; 
-    text-align: left;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-    padding-block-start: 0;
-    padding-inline-start: 0;
-    padding-inline-end: 0;
-    padding-block-end: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-} 
-
-fieldset > p {
-     font-size: 10px;
- }
-
-fieldset > label {
-     font-size: 14px;
-}
- 
- fieldset > input {
-    height: 34px;
-    width: 320px;
-		padding: 0;
-		border-radius: 3px;
-		border: 1px solid #C7C7C7;
-}
-
-#button-create-account {
-    margin-top: 5px;
-    margin-bottom: 0px;
-    height: 44px;
-    width: 318px;
-}
-
-#button-create-account img {
-    height: 1.1em;
-    padding-right: 7px;
 }
 
 p#terms-text {
