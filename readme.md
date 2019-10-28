@@ -10,7 +10,7 @@ The assignment can be found in the Odin Project's HTML and CSS course that can b
 ## Technologies used
 
 - HMTL
-- css
+- CSS
 
 Basic HTML5, CSS and github was used on this collaborative project.
 
@@ -36,6 +36,7 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 ## Contributors
 
 Rory Hellier - [GitHub](https://github.com/Rhelli)
+
 firmo holanda - [GitHub](https://github.com/firmoholanda)
 
 ## Show your support
