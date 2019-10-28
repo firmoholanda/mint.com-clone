@@ -13,7 +13,7 @@ Basic HTML5, CSS and github was used on this collaborative project.
 ## Our project
 
 Our project can be found in https://github.com/Rhelli/Basic-HTML-Page-Structure  
-A live view can be found in https://raw.githack.com/Rhelli/Basic-HTML-Page-Structure/master/index.html
+A live view can be found in https://raw.githack.com/firmoholanda/mint.com-clone/development/index.html
 
 ## Contributors
 
