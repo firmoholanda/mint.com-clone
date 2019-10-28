@@ -131,8 +131,7 @@ button img{
     flex-direction: row;
     justify-content: flex-end; 
     padding-right: 20px;
-    height: 60px;
-    
+    height: 60px;    
 }
 
     #signin-text {
@@ -170,3 +169,100 @@ button img{
             padding-right: 5px;
             padding-top: 1px;
         }
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #505050;
+    box-sizing: border-box;
+    margin: auto;
+    overflow: visible;
+    width: 380px;
+    padding: 30px;
+    line-height: 1.5;
+    text-align: center;
+    color: #4C4C4C;
+    background-color:white;
+}
+
+#form-container > h2 {
+    line-height: 2;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+#form-container > p {
+    line-height: 1.3;
+    font-size: 14px;
+}
+
+#form-container > a {
+    line-height: 2;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+form {
+    padding-top: 20px;
+}
+
+fieldset {
+    border-style: none; 
+    text-align: left;
+
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-block-start: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    padding-block-end: 0;
+} 
+
+fieldset > p {
+     font-size: 10px;
+ }
+
+fieldset > label {
+     font-size: 14px;
+}
+ 
+ fieldset > input {
+    height: 34px;
+    width: 320px;
+    padding: 0;
+}
+
+#button-create-account {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 44px;
+    width: 318px;
+}
+
+#button-create-account > img {
+    height: 1.1em;
+    padding-right: 7px;
+}
+
+#terms-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    color: #757575;
+}
+
+#terms-captcha {
+    font-size: 10px;
+    padding:  16px;
+    margin: 32px -30px -30px;
+    text-align: center;
+    background-color: #ECEEF1
+}
+
+#terms-captcha >p {
+    font-size: 10px;
+}

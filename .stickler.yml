@@ -1,7 +1,4 @@
 linters:
-
-  #html
-  HTMLHint:
   
   #javascript
   eslint:
