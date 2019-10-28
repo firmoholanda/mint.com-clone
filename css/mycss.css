@@ -204,7 +204,7 @@ fieldset > label {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid #505050;
+    border: 1px solid #c7c7c7;
     box-sizing: border-box;
     margin: auto;
     overflow: visible;
@@ -243,7 +243,7 @@ fieldset > label {
     width: 318px;
 }
 
-#button-create-account > img {
+#button-create-account img {
     height: 1.1em;
     padding-right: 7px;
 }
