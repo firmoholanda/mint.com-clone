@@ -1,13 +1,6 @@
 linters:
+  stylelint:
 
-  #html
-  HTMLHint:
-  
-  #javascript
-  eslint:
-  jshint:
-
-  #css
-  csslint:
-  
-  
+files:
+  ignore:
+    - 'css/normalize.css'

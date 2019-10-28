@@ -1,0 +1,312 @@
+
+/* Mint Fav Entrance Animation */
+    @keyframes scale-in-center-right{0%{transform:scale(0);opacity:1}30%{transform:scale(3);opacity:1}45%{transform:scale(1);opacity:1}100%{-webkit-transform:translateX(-149px);transform:translateX(-149px);opacity:1}}
+
+/* Mint Text Slide In Animation */
+    @-webkit-keyframes slide-mint-right{0%{-webkit-transform:translateX(10px);transform:translateX(10px);opacity:1}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+    @keyframes slide-mint-right{0%{-webkit-transform:translateX(10px);transform:translateX(10px);opacity:1}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+
+/* Quickbooks & TurboTax Fav Slide In Entrance Animations */
+    @-webkit-keyframes slide-in-right{0%{-webkit-transform:translateX(60px);transform:translateX(60px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+    @keyframes slide-in-right{0%{-webkit-transform:translateX(60px);transform:translateX(60px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+
+/* Quickbooks & TurboTax Fav Fade in Animation */
+    @-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+
+
+html {
+    font-size: 16px;
+    width: 100vw;
+    height: auto;
+    font-family: 'AvenirNext', 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #eceef1;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #0077C5;  
+}
+h4, p {
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+/* HEADER AND LOGOS */
+.logo-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    height: auto;
+    padding-bottom: 10px;
+}
+    .intuit-logo-container {
+				display: flex;
+				justify-self: center;
+        position: relative;
+        padding: 20px 0px;
+    }
+        .intuit-logo {
+            width: 117px;
+            height: 35px;
+            background-color: transparent;
+        }
+    .favicon-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100vw;
+				height: auto;
+				padding-bottom: 15px;
+    }
+    .favicon-container a {
+				position: relative;
+				left: 42px;
+				color: #757575;
+        font-size: 1.2em;
+        font-weight: 300;
+        text-decoration: none;
+        padding-right: 8px;
+		}
+		.mint-text {
+			position: relative;
+			right: 106px;
+			color: #757575;
+			font-size: 1.2em;
+			font-weight: 300;
+			text-decoration: none;
+			padding-right: 8px;
+			-webkit-animation: slide-mint-right 2.1s cubic-bezier(0.250, 0.460, 0.450, 1.000) both;
+			animation: slide-mint-right 1.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+			animation: fade-in 1.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+			animation-delay: 1.7s;  
+		}
+        /* Top Favicon Styling */
+        .mint-fav, .quickbooks-fav, .turbotax-fav {
+            height: 22px;
+            width: 22px;
+            vertical-align: middle;
+            border: none;
+        }
+        
+        /* Mint Fav Entrance Animation */
+				.mint-container {
+					position: absolute;
+					width: 100vw;
+				}
+					.mint-fav {
+							position: absolute;
+							right: 60%;
+							transform: translateX(-60%);
+        	    -webkit-animation: scale-in-center-right 2.2s cubic-bezier(0.860, 0.000, 0.070, 1.000) both;
+        	    animation: scale-in-center-right 2.2s cubic-bezier(0.860, 0.000, 0.070, 1.000) both;
+        	}
+        /* Quickbooks & TurboTax Entrance Animation */
+        .quickbooks-container {
+            -webkit-animation: fade-in 2.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in 2.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: slide-in-right 1.1s cubic-bezier(0.860, 0.000, 0.070, 1.000) alternate both;
+            animation-delay: 1.5s;
+        }
+        .turbotax-container {
+            -webkit-animation: fade-in 2.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in 2.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: slide-in-right 1.2s cubic-bezier(0.860, 0.000, 0.070, 1.000) alternate both;
+            animation-delay: 1.7s;
+        }
+
+button {
+    border: 1px solid #0077C5;
+    border-radius: 4px;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+    background: #167CCC;
+}
+
+button img{
+    vertical-align: text-top;
+}
+
+form {
+    padding-top: 10px;
+}
+
+fieldset {
+    border-style: none; 
+    text-align: left;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-block-start: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    padding-block-end: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+
+fieldset > p {
+     font-size: 10px;
+ }
+
+fieldset > label {
+     font-size: 14px;
+}
+ 
+ fieldset > input {
+    height: 34px;
+    width: 320px;
+    padding: 0;
+}
+
+#signin {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    padding-right: 20px;
+    height: 60px;    
+}
+
+    #signin-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 12px;
+        color: #505050;
+        text-align: right;
+        margin: 5px 0;
+        padding-top: 5px;
+        padding-right: 7px;
+    }
+
+    #signin-text > p {
+        padding-bottom: 4px;
+    }
+
+#signin-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    #signin-button button {
+        width: 100px;
+        height: 34px;
+        font-size: 0.93em;
+		}
+		
+				#button-create-account {
+					margin-top: 5px;
+					margin-bottom: 0px;
+					height: 44px;
+					width: 318px;
+				}
+
+				#button-create-account img {
+					height: 1.1em;
+					padding-right: 7px;
+				}
+        #signin-button button img {
+            width: 12px;
+            height: auto;
+            padding-right: 5px;
+            padding-top: 1px;
+        }
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #c7c7c7;
+    box-sizing: border-box;
+    margin: auto;
+    overflow: visible;
+    width: 380px;
+    padding: 30px;
+    line-height: 1.5;
+    text-align: center;
+    color: #4C4C4C;
+		background-color:white;
+		-webkit-animation: fade-in 1.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+		animation: fade-in 1.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+		animation-delay: 1.6s;
+}
+
+#form-container > h2 {
+    line-height: 2;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+#form-container > p {
+    line-height: 1.3;
+    font-size: 14px;
+}
+
+#form-container > a {
+    line-height: 2;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+p#terms-text {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 280px;
+		margin-top: 15px;
+		margin-bottom: 10px;
+		padding-top: 30px;
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    color: #757575;
+}
+
+#terms-captcha {
+    font-size: 10px;
+		padding:  16px;
+    margin: 32px -30px -30px;
+    text-align: center;
+    background-color: #ECEEF1;
+}
+
+#terms-captcha > p {
+		font-size: 10px;
+		color: #8D9096;
+}
+
+#footer-container {
+    font-size: 12px;
+    font-weight: 400;
+		padding: 15px 0px;
+		color: #505050;
+		line-height: 1.5;
+}
+
+#footer-container > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 1.5;
+		list-style: none;
+		padding-left: 0;
+		margin-bottom: 0px;
+}
+
+#footer-container a {
+    margin: 5px;
+    color: #505050;
+    text-decoration: none;
+}

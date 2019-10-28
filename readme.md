@@ -18,14 +18,14 @@ Basic HTML5, CSS and github was used on this collaborative project.
 
 Our project can be found in https://github.com/firmoholanda/mint.com-clone/tree/development
 
-### ✨ [Live Demo](https://raw.githack.com/firmoholanda/mint.com-clone/tree/development)
+### ✨ [Live Demo](https://raw.githack.com/firmoholanda/mint.com-clone/development/index.html)
 <a href="https://raw.githack.com/firmoholanda/mint.com-clone/tree/development" target="_blank">
     <img alt="page animation" src="https://github.com/firmoholanda/mint.com-clone/blob/development/img/mint.com-clone-animation.gif" />
 </a>
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/ebukaume/weather-man/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/firmoholanda/mint.com-clone/issues).
 
 1. Fork it (https://github.com/firmoholanda/mint.com-clone/fork)
 2. Create your working branch (git checkout -b [choose-a-name])
@@ -45,4 +45,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/ebukaume/weather-man/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/firmoholanda/mint.com-clone/blob/development/LICENSE.txt) licensed.
