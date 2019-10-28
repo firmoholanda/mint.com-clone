@@ -45,4 +45,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/ebukaume/weather-man/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/firmoholanda/mint.com-clone/blob/development/LICENSE.txt) licensed.
