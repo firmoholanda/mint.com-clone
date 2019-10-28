@@ -218,6 +218,8 @@ fieldset {
     padding-inline-start: 0;
     padding-inline-end: 0;
     padding-block-end: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 } 
 
 fieldset > p {
@@ -235,7 +237,7 @@ fieldset > label {
 }
 
 #button-create-account {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 0px;
     height: 44px;
     width: 318px;
