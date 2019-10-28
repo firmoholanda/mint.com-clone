@@ -125,6 +125,37 @@ button img{
     vertical-align: text-top;
 }
 
+form {
+    padding-top: 20px;
+}
+
+fieldset {
+    border-style: none; 
+    text-align: left;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-block-start: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    padding-block-end: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+
+fieldset > p {
+     font-size: 10px;
+ }
+
+fieldset > label {
+     font-size: 14px;
+}
+ 
+ fieldset > input {
+    height: 34px;
+    width: 320px;
+    padding: 0;
+}
+
 #signin {
     display: flex;
     flex-direction: row;
@@ -203,37 +234,6 @@ button img{
     line-height: 2;
     font-weight: lighter;
     font-size: 12px;
-}
-
-form {
-    padding-top: 20px;
-}
-
-fieldset {
-    border-style: none; 
-    text-align: left;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-    padding-block-start: 0;
-    padding-inline-start: 0;
-    padding-inline-end: 0;
-    padding-block-end: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-} 
-
-fieldset > p {
-     font-size: 10px;
- }
-
-fieldset > label {
-     font-size: 14px;
-}
- 
- fieldset > input {
-    height: 34px;
-    width: 320px;
-    padding: 0;
 }
 
 #button-create-account {
