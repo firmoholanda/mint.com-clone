@@ -280,7 +280,8 @@ fieldset > label {
     flex-direction: row;
     justify-content: center;
     line-height: 1.5;
-    list-style: none;
+		list-style: none;
+		padding-left: 0;
 }
 
 #footer-container a {
