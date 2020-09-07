@@ -12,7 +12,7 @@ The assignment can be found in the Odin Project's HTML and CSS course that can b
 - HMTL
 - CSS
 
-Basic HTML5, CSS and github was used on this collaborative project.
+basic HTML5, CSS and github were used on this collaborative project.
 
 ## Our project
 
